@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>5in1</title>
+  <link rel="stylesheet" href="css/uikit.css">
+  <script src="js/uikit.js"></script>
+  <script type="text/javascript" src="/eel.js"></script>
+ </head>
+ <body>
+
+      <div class="uk-container uk-container-large uk-height-large uk-background-secondary">
+        <div class = "uk-margin-medium-top uk-height-medium">
+
+          <div class = "uk-text-success uk-text-large uk-text-bold">
+            <div class="uk-flex uk-flex-center"> 
+              <p>Тест 5 в 1</p>
+            </div>
+          </div>
+
+
+          <form class="" style="color: white">
+              <div class="uk-flex uk-flex-center">
+                  <p class="uk-margin-small-right uk-form-width-medium">Число:</p>
+                   <input class=" uk-dark uk-form-width-medium uk-form-small uk-input" type="text" placeholder="Введите число" id="number-js">
+              </div>
+          </form>
+
+
+          <form class="" style="color: white">
+              <div class="uk-flex uk-flex-center">
+                  <p class="uk-margin-small-right uk-form-width-medium">Тест Ферма (Java):</p>
+                   <input class="uk-form-width-medium uk-form-small uk-input" type="text" placeholder="Ожидайте ответа" disabled id="result-java">
+              </div>
+          </form>
+
+          <form class="" style="color: white">
+              <div class="uk-flex uk-flex-center">
+                  <p class="uk-margin-small-right uk-form-width-medium">Тест делителями (C):</p>
+                   <input class="uk-form-width-medium uk-form-small uk-input" type="text" placeholder="Ожидайте ответа"  disabled id="result-c">
+              </div>
+          </form>
+
+          <form class="" style="color: white">
+              <div class="uk-flex uk-flex-center">
+                  <p class="uk-margin-small-right uk-form-width-medium">Тест Милера-Рабина (C#):</p>
+                   <input class="uk-form-width-medium uk-form-small uk-input" type="text" placeholder="Ожидайте ответа" disabled id="result-csharp">
+              </div>
+          </form>
+
+          <form class="" style="color: white">
+              <div class="uk-flex uk-flex-center">
+                  <p class="uk-margin-small-right uk-form-width-medium">Множители (Python):</p>
+                   <input class="uk-form-width-medium uk-form-small uk-input" type="text" placeholder="Ожидайте ответа"  disabled id="result-python">
+              </div>
+          </form>
+
+          <form class="" style="color: white">
+              <div class="uk-flex uk-flex-center">
+                  <p class="uk-margin-small-right uk-form-width-medium">Сумма ряда (JS):</p>
+                  <!--- Σ-1<sup>i%3</sup> * множители[i] * x<sup>-1<sup>i</sup></sup> -->
+                   <input class="uk-form-width-medium uk-form-small uk-input" type="text" placeholder="Ожидайте ответа"  id="result-js">
+              </div>
+          </form>
+
+        
+              <div class="uk-flex uk-flex-center">
+                  <a class="uk-button uk-button-default uk-form-small" style="color: white" id="start-programm">Выполнить</a>
+              </div>
+        
+
+        </div>
+
+      </div>
+      <script src="js/my.js"></script>
+  </body>
+</html>
